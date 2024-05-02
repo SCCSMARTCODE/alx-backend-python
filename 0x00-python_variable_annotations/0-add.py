@@ -5,4 +5,9 @@ This contains the Duck typing add function
 
 
 def add(x: float, y: float) -> float:
+    """
+    :param x:
+    :param y:
+    :return:
+    """
     return x + y
