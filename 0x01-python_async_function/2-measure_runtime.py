@@ -9,7 +9,8 @@ def measure_time(n: int, max_delay: int) -> float:
     """Measure the total execution time of a function
     Args:
         n: the number of coroutines to launch
-        max_delay: the maximum amount of time to wait for each coroutine
+        max_delay: the maximum amount of time to
+        wait for each coroutine
     Returns: elapsed time in seconds
     """
     start = perf_counter()
