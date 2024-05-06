@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-""""""
+"""
+Contains a method that measure the total execution time of
+a function
+"""
 from time import perf_counter
 import asyncio
 wait_n = __import__('1-concurrent_coroutines').wait_n
